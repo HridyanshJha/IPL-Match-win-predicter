@@ -17,4 +17,38 @@ This web app predicts the win probability of IPL teams during a live match based
 ---
 
 ## 📁 Project Structure
+```sh
+📦 IPL-Win-Probability-Predictor
+├── app.py
+├── IPL Win Probability Predictor.ipynb
+├── pipe.pkl
+├── deliveries.csv
+├── matches.csv
+├── Images/
+│ └── IPL Predicter.png # Your app screenshot
+└── README.md
+```
+## 🛠️ How to Run
 
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/yourusername/IPL-Win-Probability-Predictor.git
+   cd IPL-Win-Probability-Predictor
+   ```
+   Install dependencies:
+   ```sh
+pip install -r requirements.txt
+```
+Run the app
+```sh
+streamlit run app.py
+```
+## 📊 Model Details
+Trained on IPL ball-by-ball data (deliveries.csv) and match-level data (matches.csv), the app uses:
+
+Custom features like current run rate, wickets in hand, overs left, etc.
+
+A pipeline stored in pipe.pkl built in the Jupyter Notebook file.
+
+## 👨‍💻 Author
+Hridyansh Jha
