@@ -37,8 +37,8 @@ This web app predicts the win probability of IPL teams during a live match based
    ```
    Install dependencies:
    ```sh
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
 Run the app
 ```sh
 streamlit run app.py
