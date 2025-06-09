@@ -1,6 +1,6 @@
 # 🏏 IPL Win Probability Predictor
 
-![IPL Predictor Screenshot](Images/IPL predicter.png)
+![IPL Predictor Screenshot](Images/IPL Predicter.png)
 
 This web app predicts the win probability of IPL teams during a live match based on real-time parameters like runs, wickets, overs, and more. It is built using **Python**, **Streamlit**, and a trained **machine learning model** for classification.
 
